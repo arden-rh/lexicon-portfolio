@@ -36,8 +36,8 @@ export const load: PageLoad = async ({ params }) => {
 				img1Alt: 'Screenshot of the Casino Nova home page on mobile.',
 				img2Src: '/project-images/casino-nova/mobile/casino-nova-m-img-2.png',
 				img2Alt: 'Screenshot of the Casino Nova game page on mobile.',
-                img3Src: '/project-images/casino-nova/mobile/casino-nova-m-img-3.png',
-                img3Alt: 'Screenshot of the Casino Nova game page on mobile with game in progress.'
+                img3Src: '/project-images/casino-nova/mobile/casino-nova-m-vid-1.gif',
+                img3Alt: 'GIF of the Casino Nova game page on mobile with game in progress.'
 			}
 		},
         'munamii-cakery' : {

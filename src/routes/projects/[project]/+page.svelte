@@ -14,10 +14,10 @@
 			class="rounded-sm shadow-xl ring-1 ring-slate-400/50 md:max-w-5/6"
 		/>
 		<div>
-			<h1 class="rokkitt-font text-center text-3xl font-semibold text-amber-600">
+			<h1 class="rokkitt-font text-center text-3xl tracking-wider font-semibold text-amber-600">
 				{currentProject.title}
 			</h1>
-			<p class="rokkitt-font p-2 font-light text-lg text-center">{currentProject.blurb}</p>
+			<p class="rokkitt-font p-2 font-light text-lg text-center tracking-wide md:max-w-md">{currentProject.blurb}</p>
 		</div>
 		{#if currentProject.links}
 			<div
@@ -48,22 +48,22 @@
 	</section>
 	{#if currentProject.images.img1Src || currentProject.images.img2Src}
 		<section class="flex flex-col items-center gap-4 lg:mb-4">
-			<h2 class="rokkitt-font text-center text-3xl font-semibold text-amber-600">Gallery</h2>
+			<h2 class="rokkitt-font text-center text-3xl tracking-wider font-semibold text-amber-600">Gallery</h2>
 			<div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
 				<img
 					src={currentProject.images.img1Src}
 					alt={currentProject.images.img1Alt}
-					class="rounded-sm shadow-lg ring-1 ring-slate-400/50 md:max-w-70"
+					class="rounded-sm shadow-lg ring-1 ring-slate-400/50 md:max-h-130 lg:max-h-120 xl:max-h-150"
 				/>
 				<img
 					src={currentProject.images.img2Src}
 					alt={currentProject.images.img2Alt}
-					class="rounded-sm shadow-lg ring-1 ring-slate-400/50 md:max-w-70"
+					class="rounded-sm shadow-lg ring-1 ring-slate-400/50 md:max-h-130 lg:max-h-120 xl:max-h-150"
 				/>
                 <img
                     src={currentProject.images.img3Src}
                     alt={currentProject.images.img3Alt}
-                    class="rounded-sm shadow-lg ring-1 ring-slate-400/50 md:max-w-70"
+                    class="rounded-sm shadow-lg ring-1 ring-slate-400/50 md:max-h-130 lg:max-h-120 xl:max-h-150"
                 />
 			</div>
 		</section>

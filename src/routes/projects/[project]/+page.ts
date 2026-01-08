@@ -26,6 +26,9 @@ export const load: PageLoad = async ({ params }) => {
 		'casino-nova': {
 			title: 'Casino Nova',
 			blurb: 'A responsive casino website with a slot machine game built using React, React Router, and SCSS.',
+            links: {
+                repository: 'https://github.com/arden-rh/lexicon-casino'
+            },
 			images: {
 				heroImgSrc: '/project-images/casino-nova/desktop/casino-nova-dt-img-1.png',
 				heroImgAlt: 'Screenshot of the Casino Nova home page on desktop',
@@ -54,8 +57,6 @@ export const load: PageLoad = async ({ params }) => {
                 img3Alt: 'Screenshot of the Munamii Cakery product page on mobile, showing an individual product (wedding cake).'
             }
         }
-
-		// Add more projects as needed
 	};
 
 	const currentProject = projectData[project];

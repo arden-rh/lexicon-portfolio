@@ -5,7 +5,6 @@
 <section class="flex flex-col items-center gap-6 lg:mb-4">
     <h1 class="text-3xl rokkitt-font font-semibold tracking-wider text-amber-600">Projects</h1>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
-            <!-- Example Project Card -->
             <ProjectCard
                 linkName="/projects/cv"
                 imgSrc="cv-tn.png"

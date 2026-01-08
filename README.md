@@ -1,58 +1,79 @@
-# Svelte library
+# Portfolio
 
-Everything you need to build a Svelte library, powered by [`sv`](https://npmjs.com/package/sv).
+A modern, responsive portfolio website built with SvelteKit and TailwindCSS. This project showcases my work as a fullstack developer and serves as a Lexicon assignment.
 
-Read more about creating a library [in the docs](https://svelte.dev/docs/kit/packaging).
+## Features
 
-## Creating a project
+- Modern, responsive design with TailwindCSS 4
+- Fast page loads with SvelteKit's server-side rendering
+- Mobile-first responsive layout
+- Dynamic project pages with individual routes
+- Project showcase with card components
+- About and Contact pages
+- TypeScript for type safety
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Tech Stack
 
-```sh
-# create a new project in the current directory
-npx sv create
+- **Framework:** SvelteKit 2
+- **Language:** TypeScript
+- **Styling:** TailwindCSS 4 with Typography plugin
+- **Build Tool:** Vite
+- **Code Quality:** ESLint + Prettier
+- **Deployment:** Adapter Auto (supports various platforms)
 
-# create a new project in my-app
-npx sv create my-app
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher recommended)
+- npm or pnpm
+
+### Install dependencies
+
+```bash
+npm install
 ```
 
-## Developing
+### Run development server
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
+```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-Everything inside `src/lib` is part of your library, everything inside `src/routes` can be used as a showcase or preview app.
+The site will be available at `http://localhost:5173`
 
-## Building
+### Build for production
 
-To build your library:
-
-```sh
-npm pack
-```
-
-To create a production version of your showcase app:
-
-```sh
+```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+### Preview production build
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
-
-## Publishing
-
-Go into the `package.json` and give your package the desired name through the `"name"` option. Also consider adding a `"license"` field and point it to a `LICENSE` file which you can create from a template (one popular option is the [MIT license](https://opensource.org/license/mit/)).
-
-To publish your library to [npm](https://www.npmjs.com):
-
-```sh
-npm publish
+```bash
+npm preview
 ```
+
+### Linting and formatting
+
+```bash
+# Check for linting issues
+npm run lint
+
+# Format code
+npm run format
+```
+
+## Project Structure
+
+- `src/lib/components/` - Reusable UI components (project cards)
+- `src/lib/types.ts` - TypeScript interfaces for project data
+- `src/routes/` - SvelteKit routes (Home, About, Contact, Projects with dynamic [project] pages)
+- `src/app.css` - Global styles
+- `src/app.html` - HTML template
+- `static/project-images/` - Project screenshots and thumbnails
+- Config files: `svelte.config.js`, `vite.config.ts`, `tsconfig.json`, `eslint.config.js`
+
+## License
+
+© 2026 Arden Haldorson

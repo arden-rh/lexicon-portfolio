@@ -19,22 +19,26 @@
 </svelte:head>
 
 <div class="flex h-dvh min-h-dvh flex-col items-center justify-between">
-	<header class="w-full shadow-md">
+	<header class="w-full shadow-[2px_2px_3px_rgba(0,0,0,0.2)]">
 		<nav class="flex items-center justify-between px-2">
 			<a href="/">
-				<img src="/arden-logo-1.svg" alt="Arden Logo" class="m-4 h-10" />
+				<img src="/arden-logo-1.svg" alt="Arden Logo" class="m-4 h-10 hover:scale-110 transition-transform duration-300" />
 			</a>
-			<div class="mr-4 flex gap-2 text-[0.9em] uppercase rokkitt-font-regular tracking-widest mt-1">
-				<a href="/about" class="text-amber-600 hover:underline">About</a>
-				<a href="/projects" class="text-amber-600 hover:underline">Projects</a>
-				<a href="/contact" class="text-amber-600 hover:underline">Contact</a>
+			<div class="rokkitt-font-regular mt-1 mr-4 flex gap-2 text-[0.9em] tracking-widest uppercase">
+				<a href="/projects" class="text-amber-600 underline-offset-2 hover:underline">Projects</a>
+				<a href="/about" class="text-amber-600 underline-offset-2 hover:underline">About</a>
+				<a href="/about#contact" class="text-amber-600 underline-offset-2 hover:underline">
+					Contact
+				</a>
 			</div>
 		</nav>
 	</header>
-	<main class="lg:w-4/5 p-8 flex-grow w-full">
+	<main class="w-full grow p-8 lg:w-4/5">
 		{@render children()}
 	</main>
-	<footer class="w-full p-4 text-center text-slate-400 rokkitt-font-regular tracking-widest text-sm">
+	<footer
+		class="rokkitt-font-regular w-full p-4 text-center text-sm tracking-widest text-slate-400"
+	>
 		<p>© 2026 Arden Haldorson. All rights reserved.</p>
 	</footer>
 </div>

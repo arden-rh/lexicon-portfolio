@@ -1,0 +1,28 @@
+<script lang="ts">
+    import ProjectCard from '$lib/components/project-card.svelte';
+</script>
+
+<section class="flex flex-col items-center gap-6 lg:mb-4">
+    <h1 class="text-3xl rokkitt-font font-semibold tracking-wider text-amber-600">Projects</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
+            <!-- Example Project Card -->
+            <ProjectCard
+                linkName="/projects/cv"
+                imgSrc="cv-tn.png"
+                imgAlt="CV Thumbnail"
+                projectTitle="CV"
+            />
+            <ProjectCard
+                linkName="/projects/casino-nova"
+                imgSrc="casino-nova-tn.png"
+                imgAlt="Casino Nova Thumbnail"
+                projectTitle="Casino Nova"
+            />
+            <ProjectCard
+                linkName="/projects/munamii-cakery"
+                imgSrc="munamii-cakery-tn.png"
+                imgAlt="Munamii Cakery Thumbnail"
+                projectTitle="Munamii Cakery"
+            />
+    </div>
+</section>

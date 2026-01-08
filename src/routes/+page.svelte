@@ -16,13 +16,13 @@
 <section class="flex flex-col items-center">
     <h2 class="text-3xl rokkitt-font font-bold tracking-wider text-amber-600">Latest Projects</h2>
         <!-- Project Cards will go here -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
             <!-- Example Project Card -->
             <ProjectCard
-                linkName="/projects/arden-reads"
-                imgSrc="arden-reads-tn.png"
-                imgAlt="Arden Reads Thumbnail"
-                projectTitle="Arden Reads"
+                linkName="/projects/cv"
+                imgSrc="cv-tn.png"
+                imgAlt="CV Thumbnail"
+                projectTitle="CV"
             />
             <ProjectCard
                 linkName="/projects/casino-nova"

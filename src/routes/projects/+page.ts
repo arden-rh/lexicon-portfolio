@@ -5,8 +5,8 @@ export const prerender = false;
 export const load: PageLoad = async () => {
 	return {
 		metaData: {
-			title: 'Arden Portfolio | Contact',
-			description: `A page with information about how to get in touch with Arden.`,
+			title: 'Arden Portfolio | Projects',
+			description: `A page with information about Arden's projects.`,
 		}
 	};
 };

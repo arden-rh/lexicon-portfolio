@@ -5,7 +5,6 @@ export const load: LayoutLoad = async () => {
         metaData: {
             title: 'Arden Portfolio',
             description: `The personal portfolio of Arden Haldorson, a fullstack developer.`,
-            url: `https://www.arden.se/`
         }
     };
 };

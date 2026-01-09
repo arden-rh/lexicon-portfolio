@@ -4,9 +4,9 @@
 
 <section class="flex flex-col items-center gap-6 lg:mb-4">
     <h1 class="text-3xl rokkitt-font font-semibold tracking-wider text-amber-600">Projects</h1>
-        <p class="text-[1.15rem] rokkitt-font-regular tracking-wider text-center text-slate-200">
+        <h2 class="text-[1.15rem] rokkitt-font-regular tracking-wider text-center text-slate-200">
             Here are some of the projects I've worked on recently.
-        </p>
+        </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
             <ProjectCard
                 linkName="/projects/cv"

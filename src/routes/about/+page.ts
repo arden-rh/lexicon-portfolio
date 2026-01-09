@@ -7,6 +7,7 @@ export const load: PageLoad = async () => {
 		metaData: {
 			title: "Arden's Portfolio | About",
 			description: `A page with information about Arden Haldorson.`,
+			url: 'https://arh-lexicon-portfolio.netlify.app/about'
 		}
 	};
 };

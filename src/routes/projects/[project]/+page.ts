@@ -68,7 +68,8 @@ export const load: PageLoad = async ({ params }) => {
 	return {
 		metaData: {
 			title: "Arden's Portfolio | Projects | " + currentProject.title,
-			description: `A page with information about the project ${currentProject.title}.`
+			description: `A page with information about the project ${currentProject.title}.`,
+			url: `https://arh-lexicon-portfolio.netlify.app/projects/${project}`
 		},
 		currentProject
 	};

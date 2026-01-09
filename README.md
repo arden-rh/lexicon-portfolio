@@ -1,6 +1,8 @@
 # Portfolio
 
-A modern, responsive portfolio website built with SvelteKit and TailwindCSS. This project showcases my work as a fullstack developer and serves as a Lexicon assignment.
+A modern, responsive portfolio website built with SvelteKit and TailwindCSS. This was built as a small school project and I'm planning to improve upon it further on.
+
+This project is a Lexicon assignment.
 
 ## Features
 
@@ -16,12 +18,16 @@ A modern, responsive portfolio website built with SvelteKit and TailwindCSS. Thi
 
 - **Framework:** SvelteKit 2
 - **Language:** TypeScript
-- **Styling:** TailwindCSS 4 with Typography plugin
+- **Styling:** TailwindCSS 4
 - **Build Tool:** Vite
 - **Code Quality:** ESLint + Prettier
-- **Deployment:** Adapter Auto (supports various platforms)
+- **Deployment:** Adapter Netlify
 
-## Getting Started
+## Live Site
+
+[View the live portfolio](https://arh-lexicon-portfolio.netlify.app/)
+
+## Getting Started (for local testing)
 
 ### Prerequisites
 

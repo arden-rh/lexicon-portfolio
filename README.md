@@ -25,7 +25,7 @@ This project is a Lexicon assignment.
 
 ## Live Site
 
-[View the live portfolio](https://arh-lexicon-portfolio.netlify.app/)
+[View the live portfolio](https://arh-lexicon-portfolio.netlify.app)
 
 ## Getting Started (for local testing)
 

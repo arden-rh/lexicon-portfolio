@@ -67,7 +67,7 @@ export const load: PageLoad = async ({ params }) => {
 
 	return {
 		metaData: {
-			title: 'Arden Portfolio | Projects | ' + currentProject.title,
+			title: "Arden's Portfolio | Projects | " + currentProject.title,
 			description: `A page with information about the project ${currentProject.title}.`
 		},
 		currentProject

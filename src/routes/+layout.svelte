@@ -15,7 +15,7 @@
 	<!-- Open Graph -->
 	<meta property="og:title" content={page.data.metaData.title} />
 	<meta property="og:description" content={page.data.metaData.description} />
-	<!-- <meta property="og:url" content={page.data.metaData.url} /> -->
+	<meta property="og:url" content={page.data.metaData.url} />
 </svelte:head>
 
 <div class="flex h-dvh min-h-dvh flex-col items-center justify-between">

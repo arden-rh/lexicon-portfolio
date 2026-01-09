@@ -11,7 +11,7 @@ This project is a Lexicon assignment.
 - Mobile-first responsive layout
 - Dynamic project pages with individual routes
 - Project showcase with card components
-- About and Contact pages
+- About page and link to Contact section on About page
 - TypeScript for type safety
 
 ## Tech Stack
@@ -74,7 +74,7 @@ npm run format
 
 - `src/lib/components/` - Reusable UI components (project cards)
 - `src/lib/types.ts` - TypeScript interfaces for project data
-- `src/routes/` - SvelteKit routes (Home, About, Contact, Projects with dynamic [project] pages)
+- `src/routes/` - SvelteKit routes (Home, About, Projects with dynamic [project] pages)
 - `src/app.css` - Global styles
 - `src/app.html` - HTML template
 - `static/project-images/` - Project screenshots and thumbnails
